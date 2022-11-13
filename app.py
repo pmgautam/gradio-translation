@@ -30,6 +30,9 @@ def predict(text):
 examples = ["use this example to see translation in nepali",
             "this text is to test english to nepali translation"]
 gr.Interface(fn=predict,
-             inputs=gr.Textbox(),
-             outputs=gr.Textbox(),
+             inputs=gr.Textbox(label="Input text"),
+             outputs=gr.Textbox(label="Output text"),
+             title="English-to-Nepali Translation",
+             article="Author **Pramesh Gautam**, Follow me on [Twitter](https://twitter.com/pmgautam_)",
+             css="footer {visibility: hidden}",
              examples=examples).launch()
