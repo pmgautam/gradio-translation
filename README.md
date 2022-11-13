@@ -1,6 +1,6 @@
 ---
 title: English To Nepali Translation
-emoji: 💩
+emoji: :)
 colorFrom: yellow
 colorTo: red
 sdk: gradio
