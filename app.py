@@ -32,4 +32,4 @@ examples = ["use this example to see translation in nepali",
 gr.Interface(fn=predict,
              inputs=gr.Textbox(),
              outputs=gr.Textbox(),
-             examples=[examples]).launch()
+             examples=examples).launch()
